@@ -1,0 +1,21 @@
+🚀 Project Showcase: Movie Fight - A Dynamic Movie Comparison Tool 🎬
+
+I'm excited to share a project I've been working on called Movie Fight! This interactive web application allows users to compare movies side-by-side and determine which one stands out. This project is a result of my learning from the Modern JavaScript Bootcamp Course by Colt Steele and Stephen Grider.
+
+Project Highlights:
+🎨 Frontend Technologies:
+
+HTML and CSS: Structured the webpage and styled it with Bulma and Font Awesome for a sleek, modern design.
+JavaScript: Powered by Axios for API requests, this tool fetches movie data from the OMDB API.
+⚙️ Key Features:
+
+Autocomplete Search: Leveraged a custom createAutoComplete function for intuitive movie searches with real-time dropdown suggestions.
+Movie Details Comparison: Displays detailed stats such as Box Office earnings, Metascore, IMDB rating, and awards for each movie.
+Dynamic Visuals: Uses Bulma's notification components to highlight the superior movie stats dynamically.
+🔍 Testing:
+
+Mocha and Chai: Implemented automated testing to ensure reliability and smooth functionality. Our tests check that the dropdown menu behavior is consistent and robust.
+How It Works:
+Search Movies: Enter movie titles in the search bars on both sides.
+Select Options: Choose from the dropdown of movie suggestions.
+Compare: View detailed information for both movies and see which one excels in various categories.
