@@ -83,6 +83,7 @@ function updateValues() {
     .reduce((acc, item) => (acc += item), 0)
     .toFixed(2);
 
+    //filter amount
   const expense = (
     amounts.filter(item => item < 0).reduce((acc, item) => (acc += item), 0) *
     -1
